@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="123dp"
+            android:textSize="20sp"
+            android:text="SHOW LIFE STORY LINES" />
+
+        <ToggleButton
+            android:id="@+id/lifeStoryLinesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="110dp"
+            android:textSize="20sp"
+            android:text="SHOW FAMILY TREE LINES" />
+
+        <ToggleButton
+            android:id="@+id/familyTreeLinesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="155dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="155dp"
+            android:textSize="20sp"
+            android:text="SHOW SPOUSE LINES" />
+
+        <ToggleButton
+            android:id="@+id/spouseLinesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="54dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="54dp"
+            android:textSize="20sp"
+            android:text="SHOW FATHER'S SIDE OF FAMILY" />
+
+        <ToggleButton
+            android:id="@+id/fatherSideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="45dp"
+            android:textSize="20sp"
+            android:text="SHOW MOTHER'S SIDE OF FAMILY" />
+
+        <ToggleButton
+            android:id="@+id/mothersSideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="157dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="157dp"
+            android:textSize="20sp"
+            android:text="SHOW MALE EVENTS" />
+
+        <ToggleButton
+            android:id="@+id/maleEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="133dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="133dp"
+            android:textSize="20sp"
+            android:text="SHOW FEMALE EVENTS" />
+
+        <ToggleButton
+            android:id="@+id/femaleEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555" />
+
+
+</LinearLayout>

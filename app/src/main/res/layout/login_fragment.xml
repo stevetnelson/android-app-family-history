@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:stretchColumns="3" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Server Host: " />
+
+        <EditText
+            android:id="@+id/hostField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Server Port: " />
+
+        <EditText
+            android:id="@+id/portField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="number"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="User Name:" />
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="text"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Password: " />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="textPassword"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="First Name: " />
+
+        <EditText
+            android:id="@+id/firstNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="textPersonName"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Last Name: " />
+
+        <EditText
+            android:id="@+id/lastNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="textPersonName"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Email: " />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:inputType="textEmailAddress"
+            tools:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Gender: "
+            android:layout_marginTop="5dp"/>
+
+        <RadioGroup android:id="@+id/genderOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/maleOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton android:id="@+id/femaleOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+
+    </LinearLayout>
+
+</TableLayout>
